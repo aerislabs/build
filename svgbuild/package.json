@@ -1,0 +1,13 @@
+{
+  "name": "aeris-svgbuild",
+  "private": true,
+  "description": "SVG Build Tools for Aeris",
+  "scripts": {
+    "build": "svgo -p 2 logo.svg logo_optimized.svg"
+  },
+  "repository": "https://github.com/aerislabs/build.git",
+  "author": "Aeris",
+  "dependencies": {
+    "svgo": "^0.6.4"
+  }
+}
